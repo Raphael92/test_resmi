@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84C5397B233DD06F00E57B53 /* WeatherGetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C5397A233DD06F00E57B53 /* WeatherGetter.swift */; };
 		84DA4F4E233CA2C300CF455E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DA4F4D233CA2C300CF455E /* AppDelegate.swift */; };
 		84DA4F50233CA2C300CF455E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DA4F4F233CA2C300CF455E /* ViewController.swift */; };
 		84DA4F53233CA2C300CF455E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DA4F51233CA2C300CF455E /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		84DA4F58233CA2CC00CF455E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DA4F56233CA2CC00CF455E /* LaunchScreen.storyboard */; };
 		84DA4F63233CA2CC00CF455E /* resmiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DA4F62233CA2CC00CF455E /* resmiTests.swift */; };
 		84DA4F6E233CA2CC00CF455E /* resmiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DA4F6D233CA2CC00CF455E /* resmiUITests.swift */; };
+		84DA4F7C233CB5E200CF455E /* WeatherInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DA4F7B233CB5E200CF455E /* WeatherInformation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		84C5397A233DD06F00E57B53 /* WeatherGetter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherGetter.swift; sourceTree = "<group>"; };
 		84DA4F4A233CA2C300CF455E /* resmi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = resmi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84DA4F4D233CA2C300CF455E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84DA4F4F233CA2C300CF455E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 		84DA4F69233CA2CC00CF455E /* resmiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = resmiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84DA4F6D233CA2CC00CF455E /* resmiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resmiUITests.swift; sourceTree = "<group>"; };
 		84DA4F6F233CA2CC00CF455E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84DA4F7B233CB5E200CF455E /* WeatherInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherInformation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				84DA4F54233CA2CC00CF455E /* Assets.xcassets */,
 				84DA4F56233CA2CC00CF455E /* LaunchScreen.storyboard */,
 				84DA4F59233CA2CC00CF455E /* Info.plist */,
+				84DA4F7B233CB5E200CF455E /* WeatherInformation.swift */,
+				84C5397A233DD06F00E57B53 /* WeatherGetter.swift */,
 			);
 			path = resmi;
 			sourceTree = "<group>";
@@ -257,6 +263,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				84DA4F50233CA2C300CF455E /* ViewController.swift in Sources */,
+				84C5397B233DD06F00E57B53 /* WeatherGetter.swift in Sources */,
+				84DA4F7C233CB5E200CF455E /* WeatherInformation.swift in Sources */,
 				84DA4F4E233CA2C300CF455E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
